@@ -1,0 +1,22 @@
+body{
+    background: linear-gradient(to right, #9fd1f3, #f593c4, #f7e6a3);
+}
+
+.formB{
+    border: thin solid pink;
+    border-radius: 100px;
+    padding: 20px 20px 20px 70px;
+    margin: 10rem 0 0 35rem !important;
+}
+
+.form-group{
+    margin-left: 9rem;
+}
+
+.sign{
+    margin-left: 10rem;
+}
+
+.h1-ticket{
+    text-align: center !important;
+}
