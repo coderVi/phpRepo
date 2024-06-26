@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
+#navLink{
+    font-weight: bold;
+    color: white !important;
+}
+
+#navLink:hover{
+    text-shadow: 0 0 5px black;
+}
+
+.dropdown-item:hover{
+    background-color: black !important;
+    color: white !important;
+}
+.navbar {
+    font-weight: bold;
+    color: white !important;
+    position: fixed !important;
+    z-index: 1 !important;
+}
+
+.carousel{
+    position: relative !important;
+    z-index: 0 !important;
+}
+
+.card-body:hover{
+    background-color: white !important;
+}
+
+.about {
+    position: relative;
+    padding: 10%;
+}
+
+.about::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../picture/gifwebp.webp);
+    background-size: cover; /* Boyutu ayarlayın (örnekte %50) */
+    opacity: 0.7; /* Arka plan resminin opaklığını ayarlayın */
+}
+
+.about p {
+    position: relative;
+    z-index: 1;
+    text-shadow: 2px 2px 8px white;
+    margin-bottom: 0;
+}
+
+footer{
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(54, 54, 54);
+    color: white;
+    list-style: none !important;
+    text-decoration: none !important;
+}
+
+footer i{
+    color: white;
+    margin-left: 1.5rem;
+}
+
+.form-control{
+    box-shadow: 2px 2px 5px darkblue;
+}
