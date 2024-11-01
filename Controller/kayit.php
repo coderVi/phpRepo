@@ -31,7 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->Port = 587;
         $mail->Host = "smtp.gmail.com";
         $mail->Username = "abdulsamet.yilmaz@oduyo.com.tr";
-        $mail->Password = "Samet1907";
+        $mail->Password = "password";
 
         // Sender and recipient
         $mail->setFrom("mr.asmtylmz@gmail.com", "Talt Tiil, Mesaj", $auto = true);
